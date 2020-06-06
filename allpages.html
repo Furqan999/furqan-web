@@ -1,0 +1,686 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	 <script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/awesome.min.css">
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 ,.bgimg-4 ,.bgimg-5 ,.bgimg-6 ,.bgimg-7 {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("paralpics/ins2.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("paralpics/ins3.jpg");
+  min-height: 500px;
+}
+
+.bgimg-3 {
+  background-image: url("paralpics/ins4.jpeg");
+  min-height: 500px;
+}
+.bgimg-4 {
+  background-image: url("paralpics/ins7.png");
+  min-height: 500px;
+}
+.bgimg-5 {
+  background-image: url("paralpics/ins6.jpg");
+  min-height: 500px;
+}
+.bgimg-6 {
+  background-image: url("paralpics/ins5.png");
+  min-height: 500px;
+}
+.bgimg-7 {
+  background-image: url("paralpics/ins9.jpg");
+  min-height: 500px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 , .bgimg-4 , .bgimg-5 , .bgimg-6 {
+    background-attachment: scroll;
+  }
+}
+
+
+footer{
+	
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.main-nav
+{
+   
+    list-style: none;
+   
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    background-color: darkorange;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+
+  
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top #nav1 ">
+    		
+		<a class="navbar-brand" href="index.html">
+    <img src="paralpics/ruby.png" width="200" height="70" class="d-inline-block align-top" alt="image">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+		<ul class="navbar-nav ml-auto main-nav">    
+        <li class="nav-item"><a class="nav-link hoverItem" href="login.html"> LOGIN </a></li>
+        <li class="nav-item"><a class="nav-link hoverItem" href="signup.html"> CREATE ACCOUNT </a></li>
+        <li class="nav-item"><a class="nav-link hoverItem" href="allpages.html"> SERVICES </a></li>
+        <li class="nav-item"><a class="nav-link hoverItem" href="allpages.html"> ABOUT US </a></li>
+        <li class="nav-item"><a class="nav-link hoverItem" href="allpages.html"> CONTACT </a></li>
+        <li class="nav-item"><a class="nav-link hoverItem" href="allpages.html"> OUR BLOGS </a></li>
+        <li class="nav-item"><a class="nav-link hoverItem" href="allpages.html"> PRIVACY POLICY </a></li>
+    </ul>    
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--parallax starts from here -->
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SOME OF OUR WORK</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  
+  <p>
+    We're dedicated to providing our clients with a full and versatile experience when it comes to building and maintaining their web presence
+
+Browse through some of our previous and on-going projects
+</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">OUR SERVICES</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center; color: white;">Web Design and Development.</h3>
+  <p>Here at Expert, we design and build fully responsive websites, providing an in-depth consultative process of creative and logistical planning. We pair captivating aesthetic design with our insights of how your target audience will engage with, and navigate your website.
+
+    All Expert built websites are custom designed by our creative team to ensure that your new website portrays your unique vision.
+    
+    We have a history of designing dynamic websites for a diverse range of organisations from a variety of sectors including community, government, not-for-profit, professional, trade services, and membership associations. See our portfolio for more of our website design and development projects.
+    <br>
+    <b> Responsive Web Design and Development service includes:</b>
+    <br>
+    Website architecture and creative brief planning
+    Custom website design
+    Custom template design
+    Website development into MoST or other CMS programs
+    Face-to-face CMS training
+    Once your website has been designed and built, you can manage your website content yourself or we can do it for you.
+    <br>
+    <br>
+
+
+    <h3 style="text-align:center; color: white;"> Graphic and Logo Design.</h3>
+    <p>Our talented graphic designers work tirelessly to produce innovative marketing collateral for a range of online and print contexts.
+<br>
+    <b>Graphic Design & Logo Design services can include:</b> 
+      <br>
+      New logo design
+      Existing logo refresh
+      Graphically designed business cards, letterheads and brochures
+      Custom templates for newsletters, e-zines and email stationery
+      You might also be interested in having your website re-designed to fit your new brand collateral.</p>
+<br>
+<h3 style="text-align:center; color: white;"> Custom Software Development.</h3>
+<p>You might have the perfect idea for a unique online solution, but you don’t have the technical expertise or resources to bring it to life… We can help.
+
+  Our team comes together to create customised applications and features to meet your needs. Over the years we have built a range of diverse, user-friendly applications and features for a variety of internet, mobile and desktop environments.
+  
+  At Expert we can also host your application or website in our secure cloud based hosting environment.</p>
+<br>
+<h3 style="text-align:center; color: white;">Content Management.</h3>
+<p>
+  <b> Our CMS Product </b>
+
+  Using a Content Management System (CMS) is proven to be the most cost and time effective choice for anyone serious about growing their online presence.
+  
+  Expert have developed MoST™ Infrastructure Platform, the online system that contains a full website CMS that lets you create, modify and grow website content with ease. The platform also contains advanced CRM, Membership, Event, E-commerce and Email Marketing Management capabilities.
+  Learn more about MoST now. <br>
+  
+  <b> Other Content Management options include:</b>
+  <br>
+  
+  Content strategy and planning
+  Content writing for the web (including periodicals such as e-newsletters, blogs etc.)
+  Search Engine Optimisation (SEO) support 
+  If you're new to the world of content management, you might also be interested in website design and re-design.</p>
+<br>
+
+<h3 style="text-align:center; color: white;">Online Marketing.</h3>
+<p>
+  <i> “If a fantastic website exists and no one is around to see it, does it really exist?”</i> <br>
+- A Philosopher, surely. <br>
+
+SEO & Google Analytics <br>
+
+SEO & Google Analytics help increase your website’s visibility in organic search engine results and in turn drives traffic to your website.
+<br>
+<b> Services include:</b> <br>
+
+SEO & content strategy development
+Web content writing
+Meta-data and URL development
+Web content auditing
+Google Analytics account management
+Social Media Support
+
+Social Media is quickly becoming one of the most useful online marketing tools for businesses and organisations to communicate with their target audience and as such we’ve figured out the science to effective social media marketing.
+<br>
+<b> Services include:</b> <br>
+
+Strategy development
+Page creation and development
+Community management
+Posting content
+Paid ad management
+If you like the sound of online marketing, you might also be interested in the MoST Infrastructure Platform - which contains email marketing features. 
+</p>
+<br>
+
+<h3 style="text-align:center; color: white;">Managed Services and Hosting.</h3>
+<p>
+  At Expert we offer a range of cloud hosting arrangements. You can simply have your website, application or email hosted by us - or alternatively you can take advantage of combining it with one of our other quality web services.
+
+What's more, is that if you're already using the MoST Infrastructure Platform then hosting, storage and security are included in the software lease. MoST is a fully-licensed SaaS (Software as a Service).
+<br>
+<b> Web Leasing and Shared Hosting </b>
+<br>
+Expert’s combination of a Virtual Private Server (VPS) and Physical Servers ensure that your web storage is protected using some of the most durable and secure technologies, while also being hosted in more than one geographical location.
+
+Our hosting services includes data backup, disaster recovery and traffic.
+</p>
+<br>
+<h4>Research and innovation.</h4>
+We use the information we have to study our Service and collaborate with others on research to make our Service better and contribute to the well-being of our community.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">ABOUT US</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style=" color: black;">We’ve been creating exceptional websites since the early dot com era. Here’s our story.</h3>
+  <p style="color: black;">
+    What started as a mutually beneficial business relationship between our co-founders Evan Bayly and Aaron Main, quickly turned into the partnership that holds Expert together to this day. Expert was originally established back in 1998 when Google was still based out of Susan Wojcicki’s garage, and a dollar could still get you a litre of petrol.
+
+Twenty years on and hundreds of websites later, we’re proud to say Expert is one of New Zealand’s longest running, most reliable web development and design companies around.
+
+Check out our timeline below to see the highlights of our time creating exceptional work. </p>
+
+   
+<h3 style=" color: black;">Our Timeline.</h3>
+<p style="color: black;">
+It all began with our two owners, Evan Bayly and Aaron Main. Aaron was working in an IT department of a large organization while also running his own web development business on the side. Evan was busy sharing his marketing knowledge as a Business Advisor and Consultant. When Aaron began to build websites for Evan’s clients the two quickly realised how their talents complimented one another.
+
+</p>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">CONTACT US</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+<br>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img src="paralpics/support.svg" class="rounded"  height="100px" width="100px">
+      <br>
+      <br>
+      <h5>BY PHONE</h5>
+      <ul class="list-unstyled">
+            <li>
+              <a >Pakistan, P.k karachi headquaretrs</a>
+            </li>
+            <li>
+              <a >Info@Master.com</a>
+            </li>
+            <li>
+              <a >+ 021 451 424 77</a>
+            </li>
+            <li>
+              <a >+ 021 444 332 88</a>
+            </li>
+          </ul>
+    </div>
+    <div class="col-sm">
+      <img src="paralpics/email-symbol-on-monitor-screen.svg" class="rounded"  height="100px" width="100px">
+      <br>
+      <br>
+      <h5>START A NEW CASE</h5>
+      Just send us your questions or concerns by starting a new case and we will give you the help you need.
+      <br>
+      <br>
+      <button type="button" class="btn btn-secondary">Start Here</button>
+    </div>
+    <div class="col-sm">
+      <img src="paralpics/video.svg" class="rounded" height="100px" width="100px">
+      <br>
+      <br>
+      <h5>VIDEO TUTORIAL</h5>
+      Need instant help? Check out our
+    <br>
+    video tutorials 
+      <br>
+      <br>
+      <button type="button" class="btn btn-secondary">Video Tutorial</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="bgimg-5">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">OUR BLOG </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color: white;text-align:center;padding:50px 80px;text-align: justify;">
+  
+  <p style=" color: black;">Stay up to date with the latest web news, trends and tutorials here
+<h4 style=" color: black;">Our Blog.
+  Stay up to date with the latest web news, trends and tutorials here
+  
+  
+  Post 2020 – a game changer or back to the past?</h4>
+  <p style=" color: black;"> For the last two decades there has been much navel gazing in regards to the future of work...
+<br>
+</p>
+<h4 style=" color: black;">Pandemic Birthday Celebrations</h4>
+<p style=" color: black;"> Expert turned 20 on 1 April 2020 and had planned to have a big party to celebrate.  However due to being in Covid-19 lockdown this wasn’t possible, so instead we’ve provided some trivia about birthdays.</p>
+  </p>
+ <h4 style=" color: black;">As they say in the Boy Scouts – BE PREPARED!</h4>
+ <p style=" color: black;">
+  Hindsight’s a great thing, but foresight’s so much better.
+
+</p>
+
+<h4 style=" color: black;">Talking Point – cheap, nasty web hosting anyone?</h4>
+<p style=" color: black;">
+  If you pay $2.99 for a month’s hosting, you’re likely to get no more than $2.99 worth of value. On a good day.
+</p>
+
+<h4 style=" color: black;">Hot Tip - Reporting Problems to Your Provider</h4>
+<p style=" color: black;">This month’s Hot Tip is about reporting problems to your provider.</p>
+
+<h4 style=" color: black;">Talking Point – Sharing Email Addresses</h4>
+<p style=" color: black;">Sharing an email address is a bit like sharing a toothbrush (yuk!) - yet some couples are using shared email addresses to this day. Read more to find out why this needs to change..</p>
+
+<h4 style=" color: black;">Product News: Website Health Check</h4>
+<p style=" color: black;">When was the last time you checked the health of your website? Here are a few things you should make sure are up-to-date.</p>
+
+
+
+</div>
+</div>
+
+<div class="bgimg-6">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">PRIVACY POLICY </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style=" color: white;">Privacy policy</h3>
+  <p>
+    This policy describes the information we process to support Facebook, Instagram, Messenger and other products and features offered by Facebook (Facebook Products or Products). You can find additional tools and information in the Facebook Settings and Instagram Settings.
+    <br>
+<h4>I. What kinds of information do we collect?</h4>
+To provide the Facebook Products, we must process information about you. The types of information we collect depend on how you use our Products. You can learn how to access and delete information we collect by visiting the Facebook Settings and Instagram Settings.
+<br>
+<h4>Information and content you provide.</h4>
+ We collect the content, communications and other information you provide when you use our Products, including when you sign up for an account, create or share content, and message or communicate with others. This can include information in or about the content you provide (like metadata), such as the location of a photo or the date a file was created. It can also include what you see through features we provide, such as our camera, so we can do things like suggest masks and filters that you might like, or give you tips on using camera formats. Our systems automatically process content and communications you and others provide to analyze context and what's in them for the purposes described below. Learn more about how you can control who can see the things you share.
+<br>
+<h4>Promote safety, integrity and security.</h4>
+We use the information we have to verify accounts and activity, combat harmful conduct, detect and prevent spam and other bad experiences, maintain the integrity of our Products, and promote safety and security on and off of Facebook Products. For example, we use data we have to investigate suspicious activity or violations of our terms or policies, or to detect when someone needs help. To learn more, visit the Facebook Security Help Center and Instagram Security Tips.
+<br>
+<h4>Communicate with you.</h4>
+We use the information we have to send you marketing communications, communicate with you about our Products, and let you know about our policies and terms. We also use your information to respond to you when you contact us.
+<br>
+<h4>Research and innovate for social good.</h4>
+We use the information we have (including from research partners we collaborate with) to conduct and support research and innovation on topics of general social welfare, technological advancement, public interest, health and well-being. For example, we analyze information we have about migration patterns during crises to aid relief efforts. Learn more about our research programs.
+</div>
+</div>
+
+<div class="bgimg-7">
+</div>
+
+
+<!--parallax end here -->
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small footer-dark bg-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: white">Master</h5>
+          <p style="color: white">We're dedicated to providing our clients with a full and versatile experience
+            when it comes to building and maintaining their web presence..</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: white">Services</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" style="color: white">Social Growth</a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">Viral Upgarde</a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">Ampfluence</a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">Social Envy</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: white">Useful Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" style="color: white">About us </a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">Terms and conditions</a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">Prviacy policy</a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">Help</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: white">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" style="color: white">Pakistan, P.k karachi headquaretrs</a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">Info@Master.com</a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">+ 021 451 424 77</a>
+            </li>
+            <li>
+              <a href="#!" style="color: white">+ 021 444 332 88</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <hr>
+
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1" style="color: white">Register for free</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="signup.php" class="btn btn-danger btn-rounded" style="color: white">Sign up!</a>
+      </li>
+    </ul>
+    <!-- Call to action -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fa fa-facebook"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fa fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fa fa-google-plus"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fa fa-linkedin"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fa fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    
+    <div class="footer-copyright text-center py-3" style="color: white"><p>Copyright 2018 - All Rights Reserved - <a href="#">Master.com</a></p>
+      <p>Made with &hearts;<a target="_blank" href="https://www.Instagram.com/" title="">&nbsp; powered by Furqan-Nazir</a></p>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+</body>
+</html>
